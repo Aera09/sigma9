@@ -1,3 +1,5 @@
+#simple Recurrent Neural Network (RNN) from scratch to model and predict sequential data.
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -96,4 +98,5 @@ plt.legend()
 plt.title('LSTM Prediction Vs Actual')
 plt.xlabel('Time')
 plt.ylabel('Stock Price')
+
 plt.show()
